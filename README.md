@@ -16,7 +16,12 @@ gRPC was initially developed at Google and is now licensed under Apache 2.0.
   For the binary level packages they are using protocol buffers.  
     
       
-      **Step by Step process for the first gRPC Project to implement and test the gRPC Services**  
+      **Step by Step process for the first gRPC Project to implement and test the gRPC Services [Project Name::-"grpcDemo"]**  
           
 **1. Environment setup in java using Maven:- **  
-   
+  
+   (a)Create a Maven Project(specify groupId)  
+   (b)Then create a pom.xml file which contains all the dependencies, goals, plug-In which we want for the project. Also define the input directories which specify the source location.  
+   (c)After completing the pom.xml file we will update the project by mavenUpdate and when the update finish run pom.xml as MavenBuild.  
+     
+**2. Define Services by Creating Protocol Buffers and Stubs**
