@@ -55,9 +55,9 @@ Test-driven development (TDD) is a software development process that relies on t
 
 The following sequence of steps is generally followed:
 
--Add a test
--Run all tests and see if the new one fails
--Write some code
--Run tests
--Refactor code
--Repeat
+1.Add a test  
+2.Run all tests and see if the new one fails  
+3.Write some code  
+4.Run tests  
+5.Refactor code  
+6.Repeat  
