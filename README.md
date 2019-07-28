@@ -40,4 +40,7 @@ gRPC was initially developed at Google and is now licensed under Apache 2.0.
 **5. How to test GRPC Services using GUI Client(BloomRPC)**  
   
   (a)To test the API/ all the services we will use a client GUI called BloomRPC.You can download it for free from the following link :: [https://github.com/uw-labs/bloomrpc/releases].  
-  (b)
+  (b)In BloomRPC we need to specify server address and import the port files.  
+  (c)Then open the method in editor and check the method by hit play button.  
+    
+      **[                                END                            ]**
