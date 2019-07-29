@@ -1,22 +1,4 @@
-# Arun-KUSRP
-This Repository contains 2 types of projects, which are as following:-  
-(1) GRPC Project in Java using Eclipse and Maven::  
-                    (a)grpcDemo  
-                    (b)SimpleGrpc  
-(2) Test Driven Development Examples(TDD)  
-  
-    
-      
-        **What is gRPC**  
-gRPC is a high performance, open-source universal REMOTE PROCEDURE CALL framework. By default it uses Protocol Buffers to define exposed services.
-The framework provides features such as bidirectional streaming and has support for many different programming languages.
-gRPC was initially developed at Google and is now licensed under Apache 2.0.  
-  
-  In gRPC, 'g' does not stand for google, it's just an recursive.For the transport layer it use http2 which help to take advantage of streaming.For this rpc project we can use the services of streaming from server to client or client to server.
-  For the binary level packages they are using protocol buffers.  
-    
-      
-    **Step by Step process for the first gRPC Project to implement and test the gRPC Services [Project Name::-"grpcDemo"]**  
+# Step by Step process for the first gRPC Project to implement and test the gRPC Services (Project Name::-"GRPC_DEMO")  
           
 **1. Environment setup in java using Maven:-**  
   
@@ -47,22 +29,4 @@ gRPC was initially developed at Google and is now licensed under Apache 2.0.
   (c)Then open the method in editor and check the method by hit play button.  
     
       
-   **=>SimpleGrpc project is to send the message on the server.This project also follows the same steps as abve But the Big difference is in this project we are not using BloomRpc as Client GUI. Instead of this we have made different-2 packages and classes for both client and server and it's also working really well.** 
-    
-   **----------------------------------------------End Of GRPC Project--------------------------------------------------**                             
-        
-   **Test Driven Development Examples(TDD)**
-              
-This project contains example of test driven development in Java.We have used some basics teting function to understand what it is.  
   
-  
-Test-driven development (TDD) is a software development process that relies on the repetition of a very short development cycle: first the developer writes an (initially failing) automated test case that defines a desired improvement or new function, then produces the minimum amount of code to pass that test, and finally refactors the new code to acceptable standards.
-
-The following sequence of steps is generally followed:
-
-1.Add a test  
-2.Run all tests and see if the new one fails  
-3.Write some code  
-4.Run tests  
-5.Refactor code  
-6.Repeat  
