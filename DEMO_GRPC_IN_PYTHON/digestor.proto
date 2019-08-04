@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package digestor;
+
+service Digestor{
+ rpc GetDigestor(DigestMessage) returns (DigestedMessage) {}
+}
+
+message DigestMessage{
+ string ToDigest = 1;
+}
+
+message DigestedMessage{
+ string Digested = 1;
+ bool WasDigested = 2;
+}

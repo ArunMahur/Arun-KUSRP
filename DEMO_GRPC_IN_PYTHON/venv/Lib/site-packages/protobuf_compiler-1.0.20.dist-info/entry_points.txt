@@ -1,0 +1,4 @@
+[console_scripts]
+protobuf-compiler = protobuf_compiler.main:main
+protopy = protobuf_compiler.main:main
+
