@@ -20,7 +20,7 @@ Using the above client instance you can call the gRPC without doing any sort of 
 
 currs.get_digest('Random12312312ascsadvsascdaasdcsadcsds')
 
-**prints out the output**
+**prints out the output**  
 
-Digested: "b7ef49c5a735a883b137fe54d734d96a16ce66ec9f1768f7c81c555d1b54336d"
+Digested: "b7ef49c5a735a883b137fe54d734d96a16ce66ec9f1768f7c81c555d1b54336d"  
 WasDigested: true
