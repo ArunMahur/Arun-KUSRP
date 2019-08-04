@@ -1,8 +1,9 @@
 # Arun-KUSRP
-This Repository contains 2 types of projects, which are as following:-  
+This Repository contains 2 types of projects, which are as following(Every project contains there individual readme file):-  
 (1) GRPC Project in Java using Eclipse and Maven::  
                     (a)grpcDemo  
                     (b)SimpleGrpc  
+                    (c)DEMO_GRPC_IN_PYTHON
 (2) Test Driven Development Examples(TDD)  
   
     
